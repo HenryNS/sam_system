@@ -11,7 +11,6 @@ long_description = long_description,
 author = "Henry Cowan",
 author_email = "henry.cowan@novosound.net",
 url = 'https://github.com/HenryNS/sam_system',
-packages=find_packages(include=['pipython', 'libtiepie']),
 install_requires = [
     "matplotlib",
     "numpy",
@@ -19,7 +18,9 @@ install_requires = [
     "pandas",
     "pyserial",
     "scipy",
+    "libtiepie @ git+https://github.com/TiePie/python-libtiepie.git@master",
     ],
+
 scripts = [
     "Scripts/sample.py"
         ]

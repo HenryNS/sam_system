@@ -4,7 +4,7 @@ import time
 import os
 import sys
 import libtiepie
-
+sys.executable 
 libtiepie.network.auto_detect_enabled = True
 libtiepie.device_list.update()
 
