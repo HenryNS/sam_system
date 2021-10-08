@@ -1,0 +1,10 @@
+*.pyc
+.DS_Store
+.coverage
+build
+dist
+MANIFEST
+*.egg-info/
+docs/_build
+*.ipynb
+*.sublime-*
